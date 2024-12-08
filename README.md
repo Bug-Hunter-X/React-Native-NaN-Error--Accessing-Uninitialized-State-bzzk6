@@ -1,0 +1,3 @@
+# React Native NaN Error: Accessing Uninitialized State
+
+This repository demonstrates a common React Native error where attempting to access a state variable before it's initialized leads to `NaN` values.  The error stems from accessing the state variable within the component's return statement before the initial render completes.  The `bug.js` file illustrates the error, while `bugSolution.js` offers a corrected version using conditional rendering or optional chaining to handle this situation gracefully.
